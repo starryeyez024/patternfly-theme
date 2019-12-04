@@ -1,0 +1,101 @@
+$color--ui: (
+    base: (
+        default: (
+            surface:    #0076e0,  //--pfe-theme--color--ui-base
+            text:       #ffffff,  //--pfe-theme--color--ui-base--text
+        ),
+        hover: (
+            surface:    #004080,  //--pfe-theme--color--ui-base--hover
+            text:       #ffffff,  //--pfe-theme--color--ui-base--text--hover
+        )
+    ),
+    complement: (
+        default: (
+            surface:    #151515,  //--pfe-theme--color--ui-complement
+            text:       #ffffff,  //--pfe-theme--color--ui-complement--text
+        ),
+        hover: (
+            surface:    #464646,  //--pfe-theme--color--ui-complement--hover
+            text:       #ffffff,  //--pfe-theme--color--ui-complement--text--hover
+        )
+    ),
+    accent: (
+        default: (
+            surface:    #8d279f,  //--pfe-theme--color--ui-accent
+            text:       #ffffff,  //--pfe-theme--color--ui-accent--text
+        ),
+        hover: (
+            surface:    #d40000,  //--pfe-theme--color--ui-accent--hover
+            text:       #ffffff,  //--pfe-theme--color--ui-accent--text--hover
+        )
+    ),
+    disabled: (
+        default: (
+            surface:    #d2d2d2,  //--pfe-theme--color--ui-disabled
+            text:       #707070,  //--pfe-theme--color--ui-disabled--text
+        ),
+        hover: (
+            surface:    #d2d2d2,  //--pfe-theme--color--ui-disabled--hover
+            text:       #aaaaaa,  //--pfe-theme--color--ui-disabled--text--hover
+        )
+    )
+);
+
+$border--ui: (
+    width: 1px,     //--pfe-theme--ui--border-width
+    style: solid,   //--pfe-theme--ui--border-style
+    radius: 3px       //--pfe-theme--ui--border-radius
+);
+
+
+
+$color--cve: (
+    critical: (
+        default: #a30000,   //--pfe-theme--color--cve--critical
+        lightest: #fcf3f3,  //--pfe-theme--color--cve--critical--lightest
+        darkest: #740606    //--pfe-theme--color--cve--critical--darkest
+    ),
+    important: (
+        default: #ec7a08,   //--pfe-theme--color--cve--important
+        lightest: #f7ede3,  //--pfe-theme--color--cve--important--lightest
+        darkest: #ba6611    //--pfe-theme--color--cve--important--darkest
+    ),
+    moderate: (
+        default: #f5c12e,   //--pfe-theme--color--cve--moderate
+        lightest: #fbf6ea,  //--pfe-theme--color--cve--moderate--lightest
+        darkest: #d9a617    //--pfe-theme--color--cve--moderate--darkest
+    ),
+    low: (
+        default: #72767b,   //--pfe-theme--color--cve--low
+        lightest: #f1f1f1,  //--pfe-theme--color--cve--low--lightest
+        darkest: #505050    //--pfe-theme--color--cve--low--darkest
+    ),
+);
+// https://url.corp.redhat.com/color-feedback
+$color--feedback: (
+    success: (
+        default: #486b00,   //--pfe-theme--color--feedback--success
+        lightest: #e3f1c6,  //--pfe-theme--color--feedback--success--lightest
+        darkest: #2b3f03    //--pfe-theme--color--feedback--success--darkest
+    ),
+    info: (
+        default: #004368,   //--pfe-theme--color--feedback--info
+        lightest: #c3e0f0,  //--pfe-theme--color--feedback--info--lightest
+        darkest: #03283c    //--pfe-theme--color--feedback--info--darkest
+    ),
+    warning: (
+        default: #795600,   //--pfe-theme--color--feedback--warning
+        lightest: #f4ead1,  //--pfe-theme--color--feedback--warning--lightest
+        darkest: #5b4205    //--pfe-theme--color--feedback--warning--darkest
+    ),
+    danger: (
+        default: #a30000,   //--pfe-theme--color--feedback--danger
+        lightest: #fcf3f3,  //--pfe-theme--color--feedback--danger--lightest
+        darkest: #740606    //--pfe-theme--color--feedback--danger--darkest
+    ),
+    default: (
+        default: #72767b,   //--pfe-theme--color--feedback--default
+        lightest: #f1f1f1,  //--pfe-theme--color--feedback--default--lightest
+        darkest: #505050    //--pfe-theme--color--feedback--default--darkest
+    ),
+);

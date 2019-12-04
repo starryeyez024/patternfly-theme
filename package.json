@@ -1,0 +1,41 @@
+{
+    "name": "@patternfly/patternfly-theme",
+    "version": "3.0.1",
+    "engines": {
+        "node": ">=8.11.4"
+    },
+    "repository": {
+        "type": "github:starryeyez024/patternfly-theme",
+        "url": "git@github.com:starryeyez024/patternfly-theme.git"
+    },
+    "description": "A set of CSS variables for creating a consistent style across multiple projects.",
+    "main": "dist/theme.css",
+    "scripts": {
+        "start": "gulp watch",
+        "build": "gulp"
+    },
+    "authors": [
+        "Kendall Totten <ktotten@redhat.com>",
+        "Cassondra Roberts <carobert@redhat.com>"
+    ],
+    "license": "MIT",
+    "dependencies": {
+        "@patternfly/pfe-accordion": "^1.0.0-prerelease.31",
+        "@patternfly/pfe-band": "^1.0.0-prerelease.31",
+        "@patternfly/pfe-card": "^1.0.0-prerelease.31",
+        "@patternfly/pfe-cta": "^1.0.0-prerelease.31",
+        "@patternfly/pfe-tabs": "^1.0.0-prerelease.31",
+        "del": "^4.1.0",
+        "gulp": "^4.0.0",
+        "gulp-connect": "^5.7.0",
+        "gulp-csso": "^3.0.1",
+        "gulp-open": "^3.0.1",
+        "gulp-postcss": "^8.0.0",
+        "gulp-rename": "^1.4.0",
+        "gulp-sass": "^4.0.2",
+        "gulp-sourcemaps": "^2.6.5",
+        "gulp-strip-css-comments": "^2.0.0",
+        "node-sass": "^4.11.0",
+        "postcss-custom-properties": "^8.0.10"
+    }
+}

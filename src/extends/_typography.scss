@@ -1,0 +1,62 @@
+%pfe-headline-xxl {
+    font-family: var(--pfe-theme--font-family--heading, unquote(map-deep-get($font, font-family, heading)));
+    font-size:   var(--pfe-theme--font-size--xxl, map-deep-get($font, font-size, xxl));
+    line-height: var(--pfe-theme--line-height--xxl, map-deep-get($font, line-height, xxl));
+    font-weight: var(--pfe-theme--font-weight--xxl, map-deep-get($font, font-weight, xxl));
+}
+
+%pfe-headline-xl {
+    font-family: var(--pfe-theme--font-family--heading, unquote(map-deep-get($font, font-family, heading)));
+    font-size:   var(--pfe-theme--font-size--xl, map-deep-get($font, font-size, xl));
+    line-height: var(--pfe-theme--line-height--xl, map-deep-get($font, line-height, xl));
+    font-weight: var(--pfe-theme--font-weight--xl, map-deep-get($font, font-weight, xl));
+}
+
+%pfe-headline-1 {
+    font-family: var(--pfe-theme--font-family--heading, unquote(map-deep-get($font, font-family, heading)));
+    font-size:   var(--pfe-theme--font-size--alpha, map-deep-get($font, font-size, alpha));
+    line-height: var(--pfe-theme--line-height--alpha, map-deep-get($font, line-height, alpha));
+    font-weight: var(--pfe-theme--font-weight--alpha, map-deep-get($font, font-weight, alpha));
+}
+
+%pfe-headline-2 {
+    font-family: var(--pfe-theme--font-family--heading, unquote(map-deep-get($font, font-family, heading)));
+    font-size:   var(--pfe-theme--font-size--beta, map-deep-get($font, font-size, beta));
+    line-height: var(--pfe-theme--line-height--beta, map-deep-get($font, line-height, beta));
+    font-weight: var(--pfe-theme--font-weight--beta, map-deep-get($font, font-weight, beta));
+}
+
+%pfe-headline-3 {
+    font-family: var(--pfe-theme--font-family--heading, unquote(map-deep-get($font, font-family, heading)));
+    font-size:   var(--pfe-theme--font-size--gamma, map-deep-get($font, font-size, gamma));
+    line-height: var(--pfe-theme--line-height--gamma, map-deep-get($font, line-height, gamma));
+    font-weight: var(--pfe-theme--font-weight--gamma, map-deep-get($font, font-weight, gamma));
+}
+
+%pfe-headline-4 {
+    font-family: var(--pfe-theme--font-family--heading, unquote(map-deep-get($font, font-family, heading)));
+    font-size:   var(--pfe-theme--font-size--delta, map-deep-get($font, font-size, delta));
+    line-height: var(--pfe-theme--line-height--delta, map-deep-get($font, line-height, delta));
+    font-weight: var(--pfe-theme--font-weight--delta, map-deep-get($font, font-weight, delta));
+}
+
+%pfe-headline-5 {
+    font-family: var(--pfe-theme--font-family--heading, unquote(map-deep-get($font, font-family, heading)));
+    font-size:   var(--pfe-theme--font-size--epsilon, map-deep-get($font, font-size, epsilon));
+    line-height: var(--pfe-theme--line-height--epsilon, map-deep-get($font, line-height, epsilon));
+    font-weight: var(--pfe-theme--font-weight--epsilon, map-deep-get($font, font-weight, epsilon));
+}
+
+%pfe-headline-6 {
+    font-family: var(--pfe-theme--font-family--heading, unquote(map-deep-get($font, font-family, heading)));
+    font-size:   var(--pfe-theme--font-size--zeta, map-deep-get($font, font-size, zeta));
+    line-height: var(--pfe-theme--line-height--zeta, map-deep-get($font, line-height, zeta));
+    font-weight: var(--pfe-theme--font-weight--zeta, map-deep-get($font, font-weight, zeta));
+}
+
+%pfe-text {
+    font-family: var(--pfe-theme--font-family, unquote(map-deep-get($font, font-family, default)));
+    font-size:   var(--pfe-theme--font-size, map-deep-get($font, font-size, default));
+    line-height: var(--pfe-theme--line-height, map-deep-get($font, line-height, default));
+    font-weight: var(--pfe-theme--font-weight, map-deep-get($font, font-weight, default));
+}

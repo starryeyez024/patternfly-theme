@@ -1,0 +1,7 @@
+before_script:
+  - npm -v
+  - npm install
+
+build:
+  script:
+    - npm run build

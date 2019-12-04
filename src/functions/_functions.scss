@@ -1,0 +1,45 @@
+/*doc
+---
+title: strip-unit
+category: Function
+---
+
+-   __$num:__ accepts the string number with unit and returns the raw number, no unit
+*/
+@function strip-unit($num) {
+    @return $num / ($num * 0 + 1);
+}
+
+/*doc
+---
+title: pem
+category: Function
+---
+
+-   __$pxval:__ pixel value to return as em
+-   __$base:__ defaults to 18px, but optional context can be passed in
+
+```inline
+.class-name {
+    font-size: pem(36); // Returns 2em (or 36px)
+    padding: pem(18, 36) // pass in current font-size context to return 18px/1em padding
+}
+```
+*/
+
+@function pem($pxval, $base: $base-font-px) {
+    @return strip-unit($pxval) / $base * 1em;
+}
+
+/// Map deep get
+/// @author Hugo Giraudel
+/// @access public
+/// @param {Map} $map - Map
+/// @param {Arglist} $keys - Key chain
+/// @return {*} - Desired value
+@function map-deep-get($map, $keys...) {
+    @each $key in $keys {
+        $map: map-get($map, $key);
+    }
+    @return $map;
+}

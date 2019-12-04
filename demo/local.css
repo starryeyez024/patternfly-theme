@@ -1,0 +1,213 @@
+body {
+    color: #1a1a1a;
+}
+h1.page-title {
+    font-size: 70px;
+    font-weight: 100;
+    text-align: center;
+    color: #fe460d;
+    margin: 0;
+}
+
+.page-subtitle {
+    font-size: 30px;
+    text-align: center;
+    color: #555;
+    margin: 0;
+}
+
+.heading-1 {
+    font-size: 40px;
+    font-family: "Times New Roman", sans-serif;
+    margin: 0;
+    color: #fe460d;
+}
+
+.heading-2 {
+    font-size: 30px;
+    font-family: "Times New Roman", sans-serif;
+    color: #fe460d;
+    margin-bottom: 5px;
+}
+
+.heading-3 {
+    font-size: 26px;
+    font-family: "Times New Roman", sans-serif;
+    color: #666;
+    margin-bottom: .8em;
+}
+
+.border-left {
+    border-left: 3px solid var(--pfe-theme--color--ui-base);
+    padding-left: 30px;
+}
+
+.spacious {
+    --pfe-band--gutter--vertical: 50px;
+}
+
+.push-down {
+    margin-bottom: 10px;
+}
+.on-dark {
+    color: white;
+}
+.ctas pfe-cta {
+    margin-bottom: 10px;
+}
+
+.section-header a,
+.section-heading a,
+.page-subtitle a {
+    color: inherit;
+}
+
+pre {
+    max-width: 900px;
+    overflow-y: scroll;
+    font-size: 16px;
+    background: #eee;
+    padding: 1em 2em 0;
+    margin: 0;
+}
+
+.stacked {
+    display: grid;
+    grid-gap: 10px;
+}
+
+.center {
+    text-align: center;
+    align-items: center;
+}
+
+.ui-swatches {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, [col-start] minmax(250px, 1fr) [col-end]);
+    grid-gap: 10px;
+}
+
+.swatches {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, [col-start] minmax(350px, 1fr) [col-end]);
+    grid-gap: 10px;
+}
+
+.ui-swatches > *,
+.swatches > * {
+    --pfe-card--padding: 15px;
+}
+.split-4 {
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+}
+
+.split-3 {
+    display: grid;
+    grid-gap: 40px;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+}
+
+.split-2 {
+    display: grid;
+    grid-gap: 40px;
+    grid-template-columns: repeat(auto-fit, minmax(600px, 1fr));
+}
+
+[color="lightest"] {
+    border: #ccc solid 1px;
+}
+
+.hover {
+    background-color: var(--pfe-theme--color--ui-base--hover);
+}
+
+[color="lighter"].hover {
+    background-color: var(--pfe-theme--color--ui-lighter--hover);
+}
+
+[color="lightest"].hover {
+    background-color: var(--pfe-theme--color--ui-lightest--hover);
+}
+
+[color="darker"].hover {
+    background-color: var(--pfe-theme--color--ui-darker--hover);
+}
+
+[color="darkest"].hover {
+    background-color: var(--pfe-theme--color--ui-darkest--hover);
+}
+
+[color="accent"].hover {
+    background-color: var(--pfe-theme--color--ui-accent--hover);
+}
+
+[color="complement"].hover {
+    background-color: var(--pfe-theme--color--ui-complement--hover);
+}
+
+.ui-swatches h3,
+.swatches h3 {
+    margin-top: 0;
+    font-size: 16px;
+}
+
+.swatches p,
+.ui-swatches p {
+    margin: 0;
+    font-size: 13px;
+}
+
+
+p {
+    font-family: var(--pfe-theme--font-family);
+    font-size: var(--pfe-theme--font-size);
+    line-height: var(--pfe-theme--line-height);
+}
+
+pfe-band {
+    --pfe-band--Width: 1240px;
+    --pfe-band--gutter--vertical: 30px;
+}
+.container {
+   max-width: 1240px;
+   margin: 0 auto;
+}
+.my-custom-page-css h1 {
+    font-family: var(--pfe-theme--font-family--heading);
+    font-size:   var(--pfe-theme--font-size--alpha, 36px);
+    line-height: var(--pfe-theme--line-height--alpha, 1.3);
+    font-weight: var(--pfe-theme--font-weight--alpha, 400);
+}
+.my-custom-page-css h6 {
+    font-family: var(--pfe-theme--font-family--heading);
+    font-size:   var(--pfe-theme--font-size--zeta, 16px);
+    line-height: var(--pfe-theme--line-height--zeta, 1.2);
+    font-weight: var(--pfe-theme--font-weight--zeta, 700);
+}
+.readability {
+    max-width: 800px;
+}
+
+.reduced {
+    --pfe-band--Padding: 20px 0 10px;
+}
+
+.border-bottom {
+    border-bottom: 1px solid #666;
+}
+
+.logo-container > div {
+    width: 138px;
+    height: 44px;
+    display:block;
+    float: left;
+    margin: 0 30px 10px 0;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.logo-container.favicon > div {
+    width: 16px;
+    height: 16px;
+}

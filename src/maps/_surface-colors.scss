@@ -1,0 +1,44 @@
+// If forking this repo, uncomment the theme variables if you
+// need to adjust the theme which is invoked by your new palette colors
+
+$color--surface: (
+    lightest: (
+      background: #ffffff,  //--pfe-theme--color--surface--lightest
+      //theme:      light,      //--pfe-theme--color--surface--lightest--theme
+    ),
+    lighter: (
+      background: #f0f0f0,  //--pfe-theme--color--surface--lighter
+      //theme:      light,      //--pfe-theme--color--surface--lighter--theme
+    ),
+    base: (
+      background: #dddddd,  //--pfe-theme--color--surface--base
+      //theme:      light,      //--pfe-theme--color--surface--base--theme
+    ),
+    darker: (
+      background: #444444,  //--pfe-theme--color--surface--darker
+      //theme:      light,       //--pfe-theme--color--surface--darker--theme
+    ),
+    darkest: (
+      background: #1a1a1a,  //--pfe-theme--color--surface--darkest
+      //theme:      dark,       //--pfe-theme--color--surface--darkest--theme
+    ),
+    complement: (
+      background: #278e9f,  //--pfe-theme--color--surface--complement
+      //theme:      saturated,  //--pfe-theme--color--surface--complement--theme
+    ),
+    accent: (
+      background: #8d279f,  //--pfe-theme--color--surface--accent
+      //theme:      saturated,  //--pfe-theme--color--surface--accent--theme
+    )
+);
+
+$border--surface: (
+    width: 1px,     //--pfe-theme--surface--border-width
+    style: solid,   //--pfe-theme--surface--border-style
+    radius: 3px,    //--pfe-theme--surface--border-radius
+    colors: (
+        default:  #d2d2d2,  //--pfe-theme--surface--border
+        lightest: #ededed,  //--pfe-theme--surface--border-lightest
+        darkest:  #333333,  //--pfe-theme--surface--border-darkest
+    )
+);

@@ -1,0 +1,39 @@
+@import "functions/functions";
+@import "maps/typography";
+@import "extends/typography";
+
+.pfe-headline-xxl {
+    @extend %pfe-headline-xxl;
+}
+
+.pfe-headline-xl {
+    @extend %pfe-headline-xl;
+}
+
+.pfe-headline-1 {
+    @extend %pfe-headline-1;
+}
+
+.pfe-headline-2 {
+    @extend %pfe-headline-2;
+}
+
+.pfe-headline-3 {
+    @extend %pfe-headline-3;
+}
+
+.pfe-headline-4 {
+    @extend %pfe-headline-4;
+}
+
+.pfe-headline-5 {
+    @extend %pfe-headline-5;
+}
+
+.pfe-headline-6 {
+    @extend %pfe-headline-6;
+}
+
+.pfe-text {
+    @extend %pfe-text;
+}

@@ -1,0 +1,101 @@
+$font: (
+    font-size: (
+        xxl:      48px,  //--pfe-theme--font-size--xxl
+        xl:       40px,  //--pfe-theme--font-size--xl
+        alpha:    36px,  //--pfe-theme--font-size--alpha
+        beta:     28px,  //--pfe-theme--font-size--beta
+        gamma:    24px,  //--pfe-theme--font-size--gamma
+        delta:    20px,  //--pfe-theme--font-size--delta
+        epsilon:  18px,  //--pfe-theme--font-size--epsilon
+        zeta:     16px,  //--pfe-theme--font-size--zeta
+        default:  18px,  //--pfe-theme--font-size
+
+    ),
+    line-height: (
+        xxl:      1.2,  //--pfe-theme--line-height--xxl
+        xl:       1.2,  //--pfe-theme--line-height--xl
+        alpha:    1.3,  //--pfe-theme--line-height--alpha
+        beta:     1.3,  //--pfe-theme--line-height--beta
+        gamma:    1.3,  //--pfe-theme--line-height--gamma
+        delta:    1.5,  //--pfe-theme--line-height--delta
+        epsilon:  1.5,  //--pfe-theme--line-height--epsilon
+        zeta:     1.5,  //--pfe-theme--line-height--zeta
+        default:  1.5,  //--pfe-theme--line-height
+    ),
+    font-weight: (
+        xxl:      300,  //--pfe-theme--font-weight--xxl
+        xl:       300,  //--pfe-theme--font-weight--xl
+        alpha:    400,  //--pfe-theme--font-weight--alpha
+        beta:     400,  //--pfe-theme--font-weight--beta
+        gamma:    400,  //--pfe-theme--font-weight--gamma
+        delta:    400,  //--pfe-theme--font-weight--delta
+        epsilon:  400,  //--pfe-theme--font-weight--epsilon
+        zeta:     400,  //--pfe-theme--font-weight--zeta
+        default:  400,  //--pfe-theme--font-weight
+    ),
+    font-family: (
+        default: "\"RedHatText\", \"Overpass\", Overpass, Helvetica, Arial, sans-serif",    //--pfe-theme--font-family
+        heading: "\"RedHatDisplay\", \"Overpass\", Overpass, Helvetica, Arial, sans-serif", //--pfe-theme--font-family--heading
+        code:    "\"Overpass Mono\", Consolas, Monaco, Andale Mono, monospace"              //--pfe-theme--font-family--code
+    )
+);
+
+$color--text: (
+    default:   #151515, //--pfe-theme--color--text
+    dark:      #fff,    //--pfe-theme--color--text--on-dark
+    saturated: #eee     //--pfe-theme--color--text--on-saturated
+);
+
+$color--links: (
+    default: (
+        default: #0066cc,  //--pfe-theme--color--link
+        hover:   #004080,  //--pfe-theme--color--link--hover
+        focus:   #004080,  //--pfe-theme--color--link--focus
+        visited: #0066cc,  //--pfe-theme--color--link--visited
+    ),
+    dark: (
+        default: #73bcf7,  //--pfe-theme--color--link--on-dark
+        hover:   #2b9af3,  //--pfe-theme--color--link--hover--on-dark
+        focus:   #2b9af3,  //--pfe-theme--color--link--focus--on-dark
+        visited: #73bcf7,  //--pfe-theme--color--link--visited--on-dark
+    ),
+    saturated: (
+        default: #ffffff,  //--pfe-theme--color--link--on-saturated
+        hover:   #d2d3d5,  //--pfe-theme--color--link--hover--on-saturated
+        focus:   #d2d3d5,  //--pfe-theme--color--link--focus--on-saturated
+        visited: #ffffff,  //--pfe-theme--color--link--visited--on-saturated
+  )
+);
+
+$link-decoration: (
+    default: (
+        default: none,      //--pfe-theme--link--text-decoration
+        hover:   underline, //--pfe-theme--link--text-decoration--hover
+        focus:   underline, //--pfe-theme--link--text-decoration--focus
+        visited: none       //--pfe-theme--link--text-decoration--visited
+    ),
+    dark: (
+        default: none,      //--pfe-theme--link--text-decoration--on-dark
+        hover:   underline, //--pfe-theme--link--text-decoration--hover--on-dark
+        focus:   underline, //--pfe-theme--link--text-decoration--focus--on-dark
+        visited: none       //--pfe-theme--link--text-decoration--visited--on-dark
+    ),
+    saturated: (
+        default: underline, //--pfe-theme--link--text-decoration--on-saturated
+        hover:   underline, //--pfe-theme--link--text-decoration--hover--on-saturated
+        focus:   underline, //--pfe-theme--link--text-decoration--focus--on-saturated
+        visited: underline  //--pfe-theme--link--text-decoration--visited--on-saturated
+    )
+);
+//Defaults
+$broadcasted: ( 
+    text: #{var(--pfe-theme--color--text, #333)},
+    link: #{var(--pfe-theme--color--link, #06c)},
+    link--hover: #{var(--pfe-theme--color--link--hover, #003366)},
+    link--focus: #{var(--pfe-theme--color--link--focus, #003366)},
+    link--visited: #{var(--pfe-theme--color--link--visited, rebeccapurple)},
+    link-decoration: none,
+    link-decoration--hover: underline,
+    link-decoration--focus: underline,
+    link-decoration--visited: none
+);

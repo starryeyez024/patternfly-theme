@@ -1,0 +1,38 @@
+$prefix: pfe;
+
+@import "theme";
+@import "typography";
+
+:root {
+  // MAP file: typography
+  @each $key, $value in $broadcasted {
+      --#{$prefix}-broadcasted--#{$key}: #{$value};
+  }
+}
+
+.PFElement {
+    font-family: var(--#{$prefix}-theme--font-family);
+    color: var(--#{$prefix}-broadcasted--text);
+    a {
+        color: var(--#{$prefix}-broadcasted--link);
+        @each $state in (hover, focus) {  // visited introduces bugs; add this later
+            &:#{$state} {
+                color: var(--#{$prefix}-broadcasted--link--#{$state});
+            }
+        }
+    }
+}
+
+/* COMPONENT SPECIFIC STYLES */
+#{$prefix}-cta[priority="primary"] a,
+#{$prefix}-cta[priority="secondary"] a {
+    font-size: 1em;
+}
+
+#{$prefix}-cta:not([priority="primary"]) a,
+#{$prefix}-cta:not([priority="secondary"]) a {
+    text-decoration: none;
+    &:after {
+        margin-bottom: .25em;
+    }
+}
