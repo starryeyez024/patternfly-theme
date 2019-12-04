@@ -34,7 +34,3 @@ git branch -D temp || git checkout master && git fetch origin && git pull origin
 git commit -m "release-tag-2.x.0"
 git tag 2.x.0 && git push origin 2.x.0
 ```
-
-## TODO
-
-- Import a few components from PatternFly Elements to allow for an easy preview of the changes
