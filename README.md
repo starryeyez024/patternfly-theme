@@ -1,6 +1,6 @@
 # Welcome to the PatternFly Theme
 
-This repo contains a set of Red Hat theme variables for usage within the PatternFly Elements project and other web properties.  It defines how styles are applied to create a unified experience across the company.
+This repo contains a set of theme variables for usage within the PatternFly Elements project and other web properties.  It defines how styles are applied to create a unified experience across the company.
 
 ## Installation
 
