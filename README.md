@@ -10,7 +10,7 @@ This repo is separate from the main Drupal repo or the WebRH pattern library and
 
 1. **Clone the repo**
     - Check out the repository and go into the directory:
-        `git@github.com:starryeyez024/patternfly-theme.git && cd redhat-theme`
+        `git@github.com:starryeyez024/patternfly-theme.git && cd patternfly-theme`
 2. **Node package manager**
     - `$ npm -v`
         - This will test if node package manager is installed on your system already. If npm is not installed, visit [NodeJS](https://nodejs.org/en/) and follow instructions for your OS.

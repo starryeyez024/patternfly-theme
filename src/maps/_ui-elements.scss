@@ -11,11 +11,11 @@ $color--ui: (
     ),
     complement: (
         default: (
-            surface:    #151515,  //--pfe-theme--color--ui-complement
+            surface:    #312d2d,  //--pfe-theme--color--ui-complement
             text:       #ffffff,  //--pfe-theme--color--ui-complement--text
         ),
         hover: (
-            surface:    #464646,  //--pfe-theme--color--ui-complement--hover
+            surface:    #1f1a1a,  //--pfe-theme--color--ui-complement--hover
             text:       #ffffff,  //--pfe-theme--color--ui-complement--text--hover
         )
     ),
@@ -25,7 +25,7 @@ $color--ui: (
             text:       #ffffff,  //--pfe-theme--color--ui-accent--text
         ),
         hover: (
-            surface:    #d40000,  //--pfe-theme--color--ui-accent--hover
+            surface:    #69077b,  //--pfe-theme--color--ui-accent--hover
             text:       #ffffff,  //--pfe-theme--color--ui-accent--text--hover
         )
     ),
