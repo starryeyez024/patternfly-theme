@@ -5,7 +5,7 @@ h1.page-title {
     font-size: 70px;
     font-weight: 100;
     text-align: center;
-    color: #fe460d;
+    color: var(--pfe-theme--color--ui-accent, #fe460d);
     margin: 0;
 }
 
@@ -20,13 +20,13 @@ h1.page-title {
     font-size: 40px;
     font-family: "Times New Roman", sans-serif;
     margin: 0;
-    color: #fe460d;
+    color: var(--pfe-theme--color--ui-accent, #fe460d);
 }
 
 .heading-2 {
     font-size: 30px;
     font-family: "Times New Roman", sans-serif;
-    color: #fe460d;
+    color: var(--pfe-theme--color--ui-accent, #fe460d);
     margin-bottom: 5px;
 }
 
